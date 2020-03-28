@@ -1,0 +1,703 @@
+{
+    "nobody": {
+        "uid": "-2",
+        "full_name": "Unprivileged User",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "root": {
+        "uid": "0",
+        "full_name": "System Administrator",
+        "groups": [
+            "certusers",
+            "wheel"
+        ]
+    },
+    "daemon": {
+        "uid": "1",
+        "full_name": "System Services",
+        "groups": [
+            "daemon"
+        ]
+    },
+    "_uucp": {
+        "uid": "4",
+        "full_name": "Unix to Unix Copy Protocol",
+        "groups": [
+            "tty"
+        ]
+    },
+    "_taskgated": {
+        "uid": "13",
+        "full_name": "Task Gate Daemon",
+        "groups": [
+            "_taskgated"
+        ]
+    },
+    "_networkd": {
+        "uid": "24",
+        "full_name": "Network Services",
+        "groups": [
+            "_analyticsusers",
+            "_networkd"
+        ]
+    },
+    "_installassistant": {
+        "uid": "25",
+        "full_name": "Install Assistant",
+        "groups": [
+            "_installassistant"
+        ]
+    },
+    "_lp": {
+        "uid": "26",
+        "full_name": "Printing Services",
+        "groups": [
+            "_lp"
+        ]
+    },
+    "_postfix": {
+        "uid": "27",
+        "full_name": "Postfix Mail Server",
+        "groups": [
+            "certusers",
+            "_postfix"
+        ]
+    },
+    "_scsd": {
+        "uid": "31",
+        "full_name": "Service Configuration Service",
+        "groups": [
+            "_scsd"
+        ]
+    },
+    "_ces": {
+        "uid": "32",
+        "full_name": "Certificate Enrollment Service",
+        "groups": [
+            "_ces"
+        ]
+    },
+    "_appstore": {
+        "uid": "33",
+        "full_name": "Mac App Store Service",
+        "groups": [
+            "_appstore"
+        ]
+    },
+    "_mcxalr": {
+        "uid": "54",
+        "full_name": "MCX AppLaunch",
+        "groups": [
+            "_mcxalr"
+        ]
+    },
+    "_appleevents": {
+        "uid": "55",
+        "full_name": "AppleEvents Daemon",
+        "groups": [
+            "_appleevents"
+        ]
+    },
+    "_geod": {
+        "uid": "56",
+        "full_name": "Geo Services Daemon",
+        "groups": [
+            "_geod"
+        ]
+    },
+    "_devdocs": {
+        "uid": "59",
+        "full_name": "Developer Documentation",
+        "groups": [
+            "_devdocs"
+        ]
+    },
+    "_sandbox": {
+        "uid": "60",
+        "full_name": "Seatbelt",
+        "groups": [
+            "_sandbox"
+        ]
+    },
+    "_mdnsresponder": {
+        "uid": "65",
+        "full_name": "mDNSResponder",
+        "groups": [
+            "_mdnsresponder"
+        ]
+    },
+    "_ard": {
+        "uid": "67",
+        "full_name": "Apple Remote Desktop",
+        "groups": [
+            "_ard"
+        ]
+    },
+    "_www": {
+        "uid": "70",
+        "full_name": "World Wide Web Server",
+        "groups": [
+            "_www"
+        ]
+    },
+    "_eppc": {
+        "uid": "71",
+        "full_name": "Apple Events User",
+        "groups": [
+            "_eppc"
+        ]
+    },
+    "_cvs": {
+        "uid": "72",
+        "full_name": "CVS Server",
+        "groups": [
+            "_cvs"
+        ]
+    },
+    "_svn": {
+        "uid": "73",
+        "full_name": "SVN Server",
+        "groups": [
+            "_svn"
+        ]
+    },
+    "_mysql": {
+        "uid": "74",
+        "full_name": "MySQL Server",
+        "groups": [
+            "_mysql"
+        ]
+    },
+    "_sshd": {
+        "uid": "75",
+        "full_name": "sshd Privilege separation",
+        "groups": [
+            "_sshd"
+        ]
+    },
+    "_qtss": {
+        "uid": "76",
+        "full_name": "QuickTime Streaming Server",
+        "groups": [
+            "_qtss"
+        ]
+    },
+    "_cyrus": {
+        "uid": "77",
+        "full_name": "Cyrus Administrator",
+        "groups": [
+            "certusers",
+            "mail"
+        ]
+    },
+    "_mailman": {
+        "uid": "78",
+        "full_name": "Mailman List Server",
+        "groups": [
+            "_mailman"
+        ]
+    },
+    "_appserver": {
+        "uid": "79",
+        "full_name": "Application Server",
+        "groups": [
+            "_appserverusr"
+        ]
+    },
+    "_clamav": {
+        "uid": "82",
+        "full_name": "ClamAV Daemon",
+        "groups": [
+            "_clamav"
+        ]
+    },
+    "_amavisd": {
+        "uid": "83",
+        "full_name": "AMaViS Daemon",
+        "groups": [
+            "_amavisd"
+        ]
+    },
+    "_jabber": {
+        "uid": "84",
+        "full_name": "Jabber XMPP Server",
+        "groups": [
+            "certusers",
+            "_keytabusers",
+            "_jabber"
+        ]
+    },
+    "_appowner": {
+        "uid": "87",
+        "full_name": "Application Owner",
+        "groups": [
+            "_appowner"
+        ]
+    },
+    "_windowserver": {
+        "uid": "88",
+        "full_name": "WindowServer",
+        "groups": [
+            "_windowserver"
+        ]
+    },
+    "_spotlight": {
+        "uid": "89",
+        "full_name": "Spotlight",
+        "groups": [
+            "_spotlight"
+        ]
+    },
+    "_tokend": {
+        "uid": "91",
+        "full_name": "Token Daemon",
+        "groups": [
+            "_tokend"
+        ]
+    },
+    "_securityagent": {
+        "uid": "92",
+        "full_name": "SecurityAgent",
+        "groups": [
+            "_securityagent"
+        ]
+    },
+    "_calendar": {
+        "uid": "93",
+        "full_name": "Calendar",
+        "groups": [
+            "certusers",
+            "_keytabusers",
+            "_postgres",
+            "_calendar"
+        ]
+    },
+    "_teamsserver": {
+        "uid": "94",
+        "full_name": "TeamsServer",
+        "groups": [
+            "_postgres",
+            "_webauthserver",
+            "_teamsserver"
+        ]
+    },
+    "_update_sharing": {
+        "uid": "95",
+        "full_name": "Update Sharing",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_installer": {
+        "uid": "96",
+        "full_name": "Installer",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_atsserver": {
+        "uid": "97",
+        "full_name": "ATS Server",
+        "groups": [
+            "_atsserver"
+        ]
+    },
+    "_ftp": {
+        "uid": "98",
+        "full_name": "FTP Daemon",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_unknown": {
+        "uid": "99",
+        "full_name": "Unknown User",
+        "groups": [
+            "_unknown"
+        ]
+    },
+    "_softwareupdate": {
+        "uid": "200",
+        "full_name": "Software Update Service",
+        "groups": [
+            "_softwareupdate"
+        ]
+    },
+    "_coreaudiod": {
+        "uid": "202",
+        "full_name": "Core Audio Daemon",
+        "groups": [
+            "_coreaudiod"
+        ]
+    },
+    "_screensaver": {
+        "uid": "203",
+        "full_name": "Screensaver",
+        "groups": [
+            "_screensaver"
+        ]
+    },
+    "_locationd": {
+        "uid": "205",
+        "full_name": "Location Daemon",
+        "groups": [
+            "_locationd"
+        ]
+    },
+    "_trustevaluationagent": {
+        "uid": "208",
+        "full_name": "Trust Evaluation Agent",
+        "groups": [
+            "_trustevaluationagent"
+        ]
+    },
+    "_timezone": {
+        "uid": "210",
+        "full_name": "AutoTimeZoneDaemon",
+        "groups": [
+            "_timezone"
+        ]
+    },
+    "_lda": {
+        "uid": "211",
+        "full_name": "Local Delivery Agent",
+        "groups": [
+            "_lda"
+        ]
+    },
+    "_cvmsroot": {
+        "uid": "212",
+        "full_name": "CVMS Root",
+        "groups": [
+            "_cvms"
+        ]
+    },
+    "_usbmuxd": {
+        "uid": "213",
+        "full_name": "iPhone OS Device Helper",
+        "groups": [
+            "_usbmuxd"
+        ]
+    },
+    "_dovecot": {
+        "uid": "214",
+        "full_name": "Dovecot Administrator",
+        "groups": [
+            "mail"
+        ]
+    },
+    "_dpaudio": {
+        "uid": "215",
+        "full_name": "DP Audio",
+        "groups": [
+            null
+        ]
+    },
+    "_postgres": {
+        "uid": "216",
+        "full_name": "PostgreSQL Server",
+        "groups": [
+            "_postgres"
+        ]
+    },
+    "_krbtgt": {
+        "uid": "217",
+        "full_name": "Kerberos Ticket Granting Ticket",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_kadmin_admin": {
+        "uid": "218",
+        "full_name": "Kerberos Admin Service",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_kadmin_changepw": {
+        "uid": "219",
+        "full_name": "Kerberos Change Password Service",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_devicemgr": {
+        "uid": "220",
+        "full_name": "Device Management Server",
+        "groups": [
+            "_www",
+            "_postgres",
+            "_devicemgr"
+        ]
+    },
+    "_webauthserver": {
+        "uid": "221",
+        "full_name": "Web Auth Server",
+        "groups": [
+            "_webauthserver"
+        ]
+    },
+    "_netbios": {
+        "uid": "222",
+        "full_name": "NetBIOS",
+        "groups": [
+            "_netbios"
+        ]
+    },
+    "_warmd": {
+        "uid": "224",
+        "full_name": "Warm Daemon",
+        "groups": [
+            "_warmd"
+        ]
+    },
+    "_dovenull": {
+        "uid": "227",
+        "full_name": "Dovecot Authentication",
+        "groups": [
+            "_dovenull"
+        ]
+    },
+    "_netstatistics": {
+        "uid": "228",
+        "full_name": "Network Statistics Daemon",
+        "groups": [
+            "_netstatistics"
+        ]
+    },
+    "_avbdeviced": {
+        "uid": "229",
+        "full_name": "Ethernet AVB Device Daemon",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_krb_krbtgt": {
+        "uid": "230",
+        "full_name": "Open Directory Kerberos Ticket Granting Ticket",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_krb_kadmin": {
+        "uid": "231",
+        "full_name": "Open Directory Kerberos Admin Service",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_krb_changepw": {
+        "uid": "232",
+        "full_name": "Open Directory Kerberos Change Password Service",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_krb_kerberos": {
+        "uid": "233",
+        "full_name": "Open Directory Kerberos",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_krb_anonymous": {
+        "uid": "234",
+        "full_name": "Open Directory Kerberos Anonymous",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_assetcache": {
+        "uid": "235",
+        "full_name": "Asset Cache Service",
+        "groups": [
+            "_assetcache"
+        ]
+    },
+    "_coremediaiod": {
+        "uid": "236",
+        "full_name": "Core Media IO Daemon",
+        "groups": [
+            "_coremediaiod"
+        ]
+    },
+    "_launchservicesd": {
+        "uid": "239",
+        "full_name": "_launchservicesd",
+        "groups": [
+            "_launchservicesd"
+        ]
+    },
+    "_iconservices": {
+        "uid": "240",
+        "full_name": "IconServices",
+        "groups": [
+            "_iconservices"
+        ]
+    },
+    "_distnote": {
+        "uid": "241",
+        "full_name": "DistNote",
+        "groups": [
+            "_distnote"
+        ]
+    },
+    "_nsurlsessiond": {
+        "uid": "242",
+        "full_name": "NSURLSession Daemon",
+        "groups": [
+            "_nsurlsessiond"
+        ]
+    },
+    "_nsurlstoraged": {
+        "uid": "243",
+        "full_name": "NSURLStorage Daemon",
+        "groups": [
+            "_nsurlstoraged"
+        ]
+    },
+    "_displaypolicyd": {
+        "uid": "244",
+        "full_name": "Display Policy Daemon",
+        "groups": [
+            "_displaypolicyd"
+        ]
+    },
+    "_astris": {
+        "uid": "245",
+        "full_name": "Astris Services",
+        "groups": [
+            "_astris"
+        ]
+    },
+    "_krbfast": {
+        "uid": "246",
+        "full_name": "Kerberos FAST Account",
+        "groups": [
+            "nobody"
+        ]
+    },
+    "_gamecontrollerd": {
+        "uid": "247",
+        "full_name": "Game Controller Daemon",
+        "groups": [
+            "_gamecontrollerd"
+        ]
+    },
+    "_mbsetupuser": {
+        "uid": "248",
+        "full_name": "Setup User",
+        "groups": [
+            "_mbsetupuser"
+        ]
+    },
+    "_ondemand": {
+        "uid": "249",
+        "full_name": "On Demand Resource Daemon",
+        "groups": [
+            "_ondemand"
+        ]
+    },
+    "_xserverdocs": {
+        "uid": "251",
+        "full_name": "macOS Server Documents Service",
+        "groups": [
+            "_xserverdocs"
+        ]
+    },
+    "_wwwproxy": {
+        "uid": "252",
+        "full_name": "WWW Proxy",
+        "groups": [
+            "_wwwproxy"
+        ]
+    },
+    "_mobileasset": {
+        "uid": "253",
+        "full_name": "MobileAsset User",
+        "groups": [
+            "_mobileasset"
+        ]
+    },
+    "_findmydevice": {
+        "uid": "254",
+        "full_name": "Find My Device Daemon",
+        "groups": [
+            "_findmydevice"
+        ]
+    },
+    "_datadetectors": {
+        "uid": "257",
+        "full_name": "DataDetectors",
+        "groups": [
+            "_datadetectors"
+        ]
+    },
+    "_captiveagent": {
+        "uid": "258",
+        "full_name": "captiveagent",
+        "groups": [
+            "_captiveagent"
+        ]
+    },
+    "_ctkd": {
+        "uid": "259",
+        "full_name": "ctkd Account",
+        "groups": [
+            "_ctkd"
+        ]
+    },
+    "_applepay": {
+        "uid": "260",
+        "full_name": "applepay Account",
+        "groups": [
+            "_applepay"
+        ]
+    },
+    "_hidd": {
+        "uid": "261",
+        "full_name": "HID Service User",
+        "groups": [
+            "_hidd"
+        ]
+    },
+    "_cmiodalassistants": {
+        "uid": "262",
+        "full_name": "CoreMedia IO Assistants User",
+        "groups": [
+            "_cmiodalassistants"
+        ]
+    },
+    "_analyticsd": {
+        "uid": "263",
+        "full_name": "Analytics Daemon",
+        "groups": [
+            "_analyticsusers",
+            "_analyticsd"
+        ]
+    },
+    "_fpsd": {
+        "uid": "265",
+        "full_name": "FPS Daemon",
+        "groups": [
+            "_fpsd"
+        ]
+    },
+    "_timed": {
+        "uid": "266",
+        "full_name": "Time Sync Daemon",
+        "groups": [
+            "_analyticsusers",
+            "_timed"
+        ]
+    },
+    "_reportmemoryexception": {
+        "uid": "269",
+        "full_name": "ReportMemoryException",
+        "groups": [
+            "_reportmemoryexception"
+        ]
+    }
+}
